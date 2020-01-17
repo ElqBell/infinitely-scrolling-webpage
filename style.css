@@ -1,0 +1,49 @@
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: #353632;
+}
+
+section {
+  height: 100vh;
+}
+
+section header {
+  -webkit-box-sizing: content-box;
+          box-sizing: content-box;
+  border-top: 1px solid #360303;
+  height: 5%;
+  background-color: #360303;
+  color: #fcc066;
+}
+
+section header h1 {
+  line-height: 100%;
+  text-align: center;
+  font-size: 2rem;
+}
+
+section main {
+  z-index: 1;
+  position: relative;
+  height: 95%;
+  overflow: hidden;
+}
+
+section main .image-container {
+  position: relative;
+  height: 100%;
+}
+
+section main .image-container__image {
+  position: relative;
+  margin-top: 5%;
+  height: 100%;
+  background: url(img.png) no-repeat scroll center top;
+}
+/*# sourceMappingURL=style.css.map */
